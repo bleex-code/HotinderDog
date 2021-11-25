@@ -1,0 +1,235 @@
+body {
+  font-family: 'Montserrat-black', sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+/*----- TITLE SECTION (1) -----*/
+#title {
+  background-color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.nav-link {
+  margin: 0 13px;
+  font-size: 2rem;
+}
+
+.my_brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+  font-weight: lighter;
+}
+
+.logo-rotate-l {
+  transform: rotate(-45deg);
+  /*color: #000;*/
+}
+
+.logo-rotate-r {
+  transform: rotate(45deg);
+  /*color: #000;*/
+}
+
+h1 {
+font-size: 3.5rem;
+font-weight: 900;
+color: #fff;
+}
+
+.title-row-padding {
+  padding-top: 100px;
+}
+
+.slogan {
+  margin-bottom: 60px;
+}
+
+.btn-margins {
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.rotate {
+  transform: rotate(-20deg);
+}
+
+.img-left-padding {
+  padding-left: 10%;
+  position: absolute;
+  top: 300px;
+}
+
+
+
+/*----- FEATURES SECTION (2) -----*/
+
+#features {
+  background-color: #fff;
+  padding: 80px 0;
+  position: relative;
+}
+
+.h3-font {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.icons-color {
+  color: #ff4c68;
+  margin: 10px 0;
+}
+
+.check-circle-color:hover {
+  color: #7FFF00;
+}
+
+.bullseye-color:hover {
+  color: #FF0000;
+}
+
+.heart-color:hover {
+  color: #DC143C;
+}
+
+ .gray-p {
+   color: #8f8f8f;
+ }
+
+
+/*----- TESTIMONIALS SECTION (3) -----*/
+
+#testimonials {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 60px 0 40px 0;
+  font-weight: bold;
+}
+
+.h2-text {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+
+
+.dog-img {
+  width: 200px;
+  border-radius: 100%;
+  margin: 30px 30px;
+}
+
+.name-and-city {
+  font-size: 1.5rem;
+}
+
+/*----- PRESS SECTION (4) -----*/
+#press {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.press-img {
+  width: 15%;
+  padding: 20px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 3vw;
+  height: 3vw;
+  margin-top:180px;
+}
+
+
+/*----- PRICES SECTION (5) -----*/
+
+.title-prices {
+  margin: 60px 0;
+}
+
+.title-prices h2,
+.card-body h2 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+
+.title-prices p {
+  color: #8f8f8f;
+}
+
+.card {
+  margin: 2%;
+}
+
+.card-body span {
+  color: #8f8f8f;
+  font-size: 2rem;
+}
+
+
+/*----- FOOTER SECTION (6) -----*/
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.cta {
+  padding: 100px 0;
+}
+
+.cta h3 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+
+#footer {
+  background-color: #fff;
+  color: #ff4c68;
+  padding: 80px 0;
+}
+
+#footer p {
+  margin: 0;
+  color: #8f8f8f;
+}
+
+.footer-icons {
+  margin: 30px 15px;
+}
+
+/*  990 bug des fond qui laisse un espace blanc sur la droite, en dessous l'image se place sur le texte  */
+
+
+
+
+
+
+/*---------- MOBILE SECTION ----------*/
+
+@media (max-width: 1435px) {
+  .img-left-padding {
+    position: static;
+    padding: 60px 0;
+  }
+
+  .rotate {
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+
+}
